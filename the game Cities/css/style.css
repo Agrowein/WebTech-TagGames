@@ -1,0 +1,35 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    background-color: #F8F8FF;
+}
+#container {
+    width: 500px;
+    margin: 0 auto;
+    
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#chat {
+    margin: 20px auto;
+    height: 300px;
+    white-space: pre;
+    overflow-y: auto;
+    border: solid black 1.5px;
+    padding-left: 10px;
+}
+
+#panel {
+    zoom: 1.25;
+    text-align: center;
+}
+#chat {
+    background-color: #fff;
+    border-radius: 5px;
+}
+

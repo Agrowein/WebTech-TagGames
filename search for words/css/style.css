@@ -1,0 +1,135 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background: rgb(93,91,134);
+background: linear-gradient(180deg, rgba(93,91,134,1) 0%, rgba(234,234,238,0.4906337535014006) 80%, rgba(255,255,255,1) 100%);
+}
+div {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+._container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+.section__form {
+    margin: 0 auto;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.form__inner {
+    margin: 0 auto;
+    width: 50%;
+}
+.upLine {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text-input {
+    width: 100%;
+    min-width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow-y: scroll;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.word-input {
+    width: 50%;
+    margin: 10px 0;
+    min-width: 150px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    white-space:nowrap;
+    overflow: hidden;
+    background-color: #fff;
+}
+.btn {
+    border-radius: 5px;
+    border: 1px solid grey;
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 10px 0;
+    background-color: #fff;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: grey;
+    color: white;
+}
+.bottomLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.count-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.marked {
+    background-color: khaki;
+}
+
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__title {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.header__description {
+    font-size: 20px;
+}
+
+/* Footer */
+.footer {
+    bottom: 0;
+    width: 100%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer__link {
+    margin: 0 auto; 
+}
+.link {
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid grey;
+}
+.link:hover {
+    background-color: grey;
+    color: white;
+}

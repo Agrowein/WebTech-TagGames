@@ -1,0 +1,23 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Города</title>
+    <script src="js/game.js"></script>
+</head>
+<body onload="onLoad()">
+    <div class="wrapper">
+        <div id="container" class="shadow">
+            <h1>Игра "Города"</h1>
+            <div id="chat"></div>
+            <div id="panel">
+                <button onclick="new_game()">Новая игра</button>
+                <label>
+                    <input type="text" id="town" onkeypress="processEnter(event)">
+                </label>
+                <button onclick="new_turn()">Ответить</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
